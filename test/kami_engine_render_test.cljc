@@ -3,4 +3,4 @@
             [kami_engine_render]))
 (deftest namespace-loads
   (testing "the restored CLJC namespace loads"
-    (is (some? kami_engine_render))))
+    (is (some? (the-ns 'kami_engine_render)))))
