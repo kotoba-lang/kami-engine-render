@@ -1,3 +1,5 @@
+> **Scaffold / not the implementation SSoT (ADR-2607102200).** Canonical: `render (CPU) + webgpu (browser IR) + kami-engine/kami-render shaders`.
+
 # kotoba-lang/kami-engine-render
 
 Zero-dep portable `.cljc` — restored from the legacy `kami-engine/kami-engine-render` Rust crate
